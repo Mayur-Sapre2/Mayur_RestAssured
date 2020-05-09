@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 40,
+    "name": "Mayur",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Pune",
+    "website": "http://www.google.com",
+    "language": "English",
+    "location": {
+        "lat": -78.98,
+        "lng": 55.45
+    },
+    "types": [
+        "Shoe park",
+        "Shoe"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Fri, 08 May 2020 12:33:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "00e93f774e38a08fee53ae022bee482b",
+    "scope": "APP",
+    "reference": "3ddd203e9c931a69dc459a371c98a0fa3ddd203e9c931a69dc459a371c98a0fa",
+    "id": "3ddd203e9c931a69dc459a371c98a0fa"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=00e93f774e38a08fee53ae022bee482b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=00e93f774e38a08fee53ae022bee482b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 08 May 2020 12:33:22 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 220
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-78.98",
+        "longitude": "55.45"
+    },
+    "accuracy": "40",
+    "name": "Mayur",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Pune",
+    "types": "Shoe park,Shoe",
+    "website": "http://www.google.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "00e93f774e38a08fee53ae022bee482b"
+}
+HTTP/1.1 200 OK
+Date: Fri, 08 May 2020 12:33:23 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}

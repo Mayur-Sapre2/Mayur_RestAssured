@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2799" started-at="2020-05-08T18:03:20 IST" finished-at="2020-05-08T18:03:23 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restassured.testrunner.TestRunner@3dd4520b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="2799" started-at="2020-05-08T18:03:20 IST" finished-at="2020-05-08T18:03:23 IST">
+      <class name="NewTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:NewTest@5ae63ade]" name="f" duration-ms="0" started-at="2020-05-08T18:03:23 IST" finished-at="2020-05-08T18:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- NewTest -->
+      <class name="com.restassured.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.restassured.testrunner.TestRunner@3dd4520b]" name="setUpClass" is-config="true" duration-ms="245" started-at="2020-05-08T18:03:20 IST" finished-at="2020-05-08T18:03:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restassured.testrunner.TestRunner@3dd4520b]" name="runScenario" duration-ms="2208" started-at="2020-05-08T18:03:20 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-08T18:03:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if place being successfully added using AddPlace API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating  Place API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.restassured.testrunner.TestRunner@3dd4520b]" name="runScenario" duration-ms="206" started-at="2020-05-08T18:03:22 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-05-08T18:03:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if delete place functionality working fine or not"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating  Place API"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.restassured.testrunner.TestRunner@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="111" started-at="2020-05-08T18:03:23 IST" finished-at="2020-05-08T18:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.restassured.testrunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
